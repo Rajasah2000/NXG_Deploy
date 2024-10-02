@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2ad6e7d5.css",
+    "main.js": "/static/js/main.04e8db0f.js",
+    "static/js/453.0c565a9c.chunk.js": "/static/js/453.0c565a9c.chunk.js",
+    "static/media/card.png": "/static/media/card.fb888304434f7366a0e9.png",
+    "static/media/helicopter-banner4.jpg": "/static/media/helicopter-banner4.a38d6d3d1abbc48b9bef.jpg",
+    "static/media/helicopter-banner2.jpg": "/static/media/helicopter-banner2.7a6ebb2c0690613816e7.jpg",
+    "static/media/helicopter-banner3.jpg": "/static/media/helicopter-banner3.82208cbe6368ee03bc0d.jpg",
+    "static/media/djim.jpg": "/static/media/djim.0c8ac0488131d29b285e.jpg",
+    "static/media/11.png": "/static/media/11.773d35f8ae63802bbc2d.png",
+    "static/media/1 (1).png": "/static/media/1 (1).d89148241605604ec953.png",
+    "static/media/2.png": "/static/media/2.260a16bfaf05aebc8539.png",
+    "static/media/bell-429.jpg": "/static/media/bell-429.65522a7854d4b7a73656.jpg",
+    "static/media/logo-removebg-preview.png": "/static/media/logo-removebg-preview.d8e74c8cabe3b6bc0924.png",
+    "static/media/Range-aircraft.png": "/static/media/Range-aircraft.2d11b0ddd7f2d4d199bf.png",
+    "static/media/1 - Copy.png": "/static/media/1 - Copy.4b0f08628fc547892eae.png",
+    "static/media/profile_pic.png": "/static/media/profile_pic.4b0f08628fc547892eae.png",
+    "static/media/2 (121).svg": "/static/media/2 (121).5f71b531359a949d1ff5f7bb46cf5d67.svg",
+    "static/media/customer_care.svg": "/static/media/customer_care.5f71b531359a949d1ff5f7bb46cf5d67.svg",
+    "static/media/th (1).jpg": "/static/media/th (1).5db87135198ccb6edf00.jpg",
+    "static/media/4.svg": "/static/media/4.ef53a9f3ab0e8f92b76d0e8c14e21d49.svg",
+    "static/media/2.svg": "/static/media/2.a8f6fbec8a4bdb0a1fb3f644b8dea7e0.svg",
+    "static/media/bag.svg": "/static/media/bag.8380754f27291d3afb6ec3830f64bcfe.svg",
+    "static/media/3.svg": "/static/media/3.0d6f240821e7d7eb73462aa04fe01599.svg",
+    "static/media/1.svg": "/static/media/1.d3a7f848fc0df01e0dc5be2bc0746c54.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "index.html": "/index.html",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/2 (131).svg": "/static/media/2 (131).bd0c66ffa00dc01299b6b1034b83735d.svg",
+    "static/media/protection_logo.svg": "/static/media/protection_logo.bd0c66ffa00dc01299b6b1034b83735d.svg",
+    "static/media/plane.svg": "/static/media/plane.c8faab686c12814abd524872bffc6dfd.svg",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.2ad6e7d5.css.map": "/static/css/main.2ad6e7d5.css.map",
+    "main.04e8db0f.js.map": "/static/js/main.04e8db0f.js.map",
+    "453.0c565a9c.chunk.js.map": "/static/js/453.0c565a9c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ad6e7d5.css",
+    "static/js/main.04e8db0f.js"
+  ]
+}
