@@ -1,0 +1,285 @@
+body {
+  overflow-x: hidden;
+  font-family: "Jost", sans-serif;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+/* feature-cruise section start*/
+.feature_card_section {
+  width: 100%;
+}
+.container-feature {
+  width: 100%;
+  padding-top: 20px;
+}
+.card_main-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card_item {
+  width: 23%;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.card-img-box {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  height: 180px;
+}
+
+.card-img-box img {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+  object-fit: cover;
+}
+.card_item:hover img.card-img {
+  /* scale: 1.02; */
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+.card-img-title {
+  position: absolute;
+  top: 12px;
+  width: 40%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  left: 0;
+  background-color: black;
+}
+.promo-text {
+  font-size: 11px;
+  color: white;
+}
+.card-details-box {
+  padding: 10px 0;
+}
+.img-heart-box {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.img-heart-box:hover {
+  background-color: blue;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+.cruise-name-box {
+  width: 100%;
+  margin-top: 0;
+}
+.cruise-title {
+  width: 100%;
+  font-size: 19px;
+  font-weight: 500;
+  color: black;
+  line-height: 30px;
+}
+.card_item:hover p.cruise-title {
+  text-decoration: underline;
+  transition: all 0.8s ease-in-out;
+}
+.sailing-box,
+.sail-date-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pt {
+  padding-top: 12px;
+}
+.para {
+  font-weight: 800;
+  color: black;
+}
+.bg-primary {
+  background-color: blue;
+  color: #fff;
+}
+.bg-yellow {
+  background-color: rgba(235, 212, 12, 0.733);
+  color: black;
+}
+.pr-2 {
+  width: 28%;
+  text-align: start;
+}
+.star-box i {
+  color: rgba(253, 229, 10, 0.733);
+}
+.review-price-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review-box {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price-box {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.icon-arrow-top-right {
+  transform: rotate(315deg);
+}
+.public_review{
+  font-size: 11px;
+}
+/* feature-cruise section end*/
+
+/* whyUs section */
+.whyus_btn {
+  margin-top: 16px;
+  padding: 14px 30px;
+  border-radius: 5px;
+  background-color: #ffc107;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.whyus_btn:hover {
+  background-color: blue;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.why-us-arrow {
+  display: inline;
+  padding-left: 10px;
+}
+/* recomended section */
+.recomended-card {
+  width: 31%;
+}
+.recomended-dep {
+  text-align: center;
+}
+.recommended-review {
+  justify-content: start;
+  gap: 8px;
+}
+
+
+/* responsive */
+@media (max-width: 1199px){
+.review-box p{
+  font-size: 10px;
+}
+}
+
+@media (max-width: 992px) {
+  /* feature section  */
+  .card-img-box {
+    width: 100%;
+    gap: 40px;
+  }
+  .card_item {
+    width: 48%;
+  }
+  .no-ports {
+    padding-top: 5px;
+  }
+  .sailing-box {
+    padding-top: 5px;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .sailing-box > p {
+    font-size: 13.5px;
+  }
+  .review-box p{
+    font-size: 15px;
+  }
+  .pr-2 {
+    padding-left: 10%;
+  }
+  /* recomended-section */
+  .recommended-review .public_review{
+    font-size: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .cruise-title {
+    font-size: 17px;
+  }
+  .sailing-box > p {
+    width: 50%;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .promo-text{
+    font-size: 10px;
+    width: 150px;
+    color: white;
+  }
+  .pr-2 {
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+  .review-box p{
+    font-size: 12px;
+  }
+  .no-ports {
+    padding-top: 2px;
+  }
+  .no-ports > p {
+    font-size: 15px;
+  }
+  .review-box {
+    width: 48%;
+  }
+  .price-box .para {
+    font-size: 15px;
+  }
+  /* recomended Cruise */
+  .recomended-card-main-box{
+    padding: 0;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .recomended-card{
+    width: 100%;
+  }
+  .feature_card_section{
+    padding: 10px 5px;
+  }
+}
+@media (max-width: 576px) {
+  .card_item {
+    width: 100%;
+  }
+  .review-box {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 13px;
+  }
+  .review-box p{
+    font-size: 14px;
+  }
+}

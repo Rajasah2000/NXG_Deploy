@@ -1,0 +1,987 @@
+.checkoutSec {
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.blank-section {
+    width: 100%;
+    min-height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.blankOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(38, 54, 51, 0.4);
+    z-index: 1;
+}
+
+.blank-para {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+}
+/* 
+.CheckoutMain {
+    position: relative;
+    top: -120px;
+    z-index: 2;
+} */
+
+/* main-container */
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.checkMainLeft {
+    width: 67%;
+}
+
+.right-sections {
+    width: 28%;
+}
+
+
+/* departure-section start */
+
+.departure-arival-section {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+    margin-bottom: 25px;
+}
+
+.main-route {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-para {
+    margin-left: 10px;
+}
+
+.main-route-desc {
+    font-size: 15px;
+}
+
+.bold-para {
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.plane-logo {
+    width: 50%;
+}
+
+.plane-logo img {
+    width: 32px;
+    padding-right: 5px;
+}
+
+.main-box-boxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.main-box {
+    border: 1px solid lightgray;
+    padding: 10px 18px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.main-box-para {
+    background-color: rgb(229, 243, 255);
+    padding: 0 2px;
+    border-radius: 5px;
+}
+
+.main-time {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.diviser {
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+}
+
+.specification-para1 {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+    margin-left: 5px;
+}
+
+.baggage-link {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.middle-area {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 15px 0px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.middle-para {
+    display: block;
+}
+
+.duration i {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.terminal-no1 {
+    text-align: end;
+}
+
+.terminal {
+    font-weight: 700;
+    color: rgb(0, 162, 173);
+}
+
+.terminal-no2 {
+    text-align: start;
+}
+
+/* departure-section end */
+
+
+/* Fare Summary section start*/
+
+.fare-summary {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+    margin-bottom: 20px;
+}
+
+.fare-summarypara {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.person-amount {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.fare-summary .container .diviser {
+    margin: 0 -15px 0 -10px;
+}
+
+.fee-slip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+
+.person-count {
+    padding-top: 10px;
+}
+
+.person-calculation {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.base-fare-btn i {
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.base-fare-title {
+    font-weight: 400;
+}
+
+.base-fare-amount {
+    padding-top: 5px;
+}
+
+.base-money {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.base-money-rev {
+    color: grey;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.tax-title {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.taxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.charity {
+    width: 70%;
+}
+
+.chrity-text {
+    font-size: 12px;
+}
+
+.fee-slip input {
+    width: 17px;
+    height: 17px;
+}
+
+.grand-total {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.grand-total p {
+    font-size: 20px;
+    color: rgb(34, 118, 227);
+    font-weight: 600;
+}
+
+.specificatuion i {
+    margin: 0px 5px;
+    font-size: 15px;
+}
+
+/* Fare Summary section end*/
+
+
+/* discount section start */
+
+.discount-section {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.discount-cupon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+.discount-cupon input {
+    width: 80%;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 7px;
+}
+
+.discount-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.discount-desc {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 13px 0;
+}
+
+.view-coupons {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(34, 118, 227);
+}
+
+/* discount section end */
+
+
+
+/* cancel-section start */
+.cancel-section {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 3px;
+}
+
+.cancelation-rules {
+    width: 100%;
+    text-align: center;
+    padding: 2px 4px;
+}
+
+
+.cancel-main-box {
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.cancel-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cancel-main-box {
+    width: 100%;
+}
+
+.cancel-main-upper-box {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+}
+
+.cancel-flight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cancelTbl {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.cancelTbl thead {
+    border-bottom: 1px solid grey;
+}
+
+.cancelTbl th {
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.cancelTbl th:nth-child(2) {
+    text-align: end;
+}
+
+.cancelTbl tr td {
+    padding: 5px;
+    font-size: 13px;
+}
+
+.boldTd {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: end;
+}
+
+.cancelTbl tr td span {
+    font-weight: bold;
+}
+
+.cancelTbl th:first-child,
+.cancelTbl tr td:first-child {
+    border-right: 1px solid grey;
+}
+
+.refund-title {
+    width: 200px;
+    text-align: center;
+    background-color: rgb(181, 240, 181);
+    color: green;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightblue;
+}
+
+.cancel-main-lower-box {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.changeDisplay {
+    display: none;
+}
+
+.cancelation-reshedule-box {
+    width: 48%;
+    padding: 10px 7px 2px 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.cancelation-charges-policy-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.cancelation-charges {
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.cancel-policy a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.cancelation-time-box {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+.cancelation-timing {
+    text-align: start;
+    width: 50%;
+    border-right: 1px solid gray;
+}
+
+.cancelation-timing p {
+    padding: 7px 0;
+}
+
+.time-ist {
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.cancelation-time-box p {
+    font-size: 13px;
+}
+
+.cancelation-fees {
+    text-align: end;
+    width: 50%;
+}
+
+.fee-title {
+    border-bottom: 1px solid gray;
+}
+
+.cancelation-fees p {
+    padding: 7px 0;
+}
+
+.horizental-diviser {
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 35px;
+    background-color: gray;
+}
+
+.vertical-diviser {
+    height: 95%;
+    width: 1px;
+    position: absolute;
+    left: 55%;
+    background-color: gray;
+}
+
+/* cancel-section end */
+
+
+
+
+/* Responsive */
+
+@media (max-width:1366px) {
+    .discount-section {
+        top: 85%;
+    }
+
+    .cancelation-reshedule-box {
+        width: 49%;
+    }
+
+}
+
+@media (max-width:1299px) {
+
+    .cancelTbl tr td {
+        font-size: 12px;
+    }
+
+    .cancelTbl th {
+        font-size: 12px;
+    }
+
+    .cancelation-charges {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:1199px) {
+    .airport-name p {
+        width: 30%;
+    }
+
+    .arival-port {
+        text-align: end;
+    }
+
+    .specificatuion {
+        display: none;
+    }
+
+    .baggage-link {
+        margin: 15px auto;
+        font-size: 20px;
+    }
+
+    .cancel-section {
+        top: 1200px;
+    }
+
+    .discount-section {
+        top: 85%;
+    }
+
+    .vertical-diviser {
+        height: 95%;
+    }
+
+    .fee-title {
+        font-size: 12px;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .fare-summarypara {
+        font-size: 16px;
+    }
+
+    .person-calculation {
+        font-size: 15px;
+    }
+
+    .base-money {
+        font-size: 14px;
+    }
+
+    .grand-total p {
+        font-size: 16px;
+    }
+
+    .discount-title {
+        font-size: 16px;
+    }
+
+    .view-coupons {
+        font-size: 13px;
+    }
+
+    .right-sections {
+        width: 26%;
+    }
+
+    .checkMainLeft {
+        width: 72%;
+    }
+
+    .tax-title {
+        font-size: 14px;
+    }
+
+    .main-route {
+        font-size: 16px;
+    }
+
+    .middle-area {
+        margin: 15px auto;
+    }
+
+    .baggage-link {
+        margin: 8px auto;
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width:991px) {
+
+    .cancel-title {
+        font-size: 16px;
+    }
+
+    .departure-arival-section {
+        width: 100%;
+        margin: auto;
+        position: static;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .jouerny-time {
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        padding-top: 1rem;
+    }
+
+    .right-sections {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .fare-summary {
+        position: static;
+        width: 50%;
+    }
+
+    .taxes {
+        padding-top: 10px;
+    }
+
+    .tax-title {
+        width: 50%;
+    }
+
+    .discount-section {
+        position: static;
+        width: 50%;
+    }
+
+    .discount-cupon input {
+        width: 62%;
+    }
+
+    .cancel-section {
+        position: static;
+        width: 100%;
+        margin: auto;
+    }
+
+    .fare-summary {
+        position: static;
+        width: 75%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .person-calculation {
+        font-size: 15px;
+    }
+
+    .person-amount {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    .base-money {
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .base-fare-title {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .tax-title {
+        font-size: 13px;
+    }
+
+    .charity {
+        width: 70%;
+        text-align: start;
+    }
+
+    .grand-total p {
+        font-size: 14px;
+    }
+
+    .right-sections {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .CheckoutMain {
+        position: static;
+    }
+
+    .checkMainLeft {
+        width: 100%;
+        margin: auto;
+        padding-top: 1rem;
+    }
+
+    .cancel-main-lower-box {
+        padding: 4px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .economy-tagline {
+        display: none;
+    }
+
+    .plane-logo {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .base-fare-title {
+        font-size: 13px;
+    }
+
+    .base-money {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+
+    .fare-summary {
+        width: 50%;
+    }
+
+    .person-count {
+        display: none;
+    }
+
+    .base-money-rev {
+        display: none;
+    }
+
+    .discount-section {
+        width: 40%;
+    }
+
+    .discount-cupon input {
+        width: 70%;
+    }
+
+    .cancel-main-lower-box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cancel-main-box {
+        width: 90%;
+    }
+
+    .cancelation-reshedule-box {
+        width: 90%;
+    }
+
+    .cancelation-timing {
+        text-align: center;
+    }
+
+    .cancelation-fees {
+        text-align: center;
+    }
+
+    .cancelation-charges-policy-box {
+        justify-content: space-around;
+    }
+
+    .cancel-main-upper-box {
+        width: 100%;
+        display: flex;
+        padding: 7px 24px;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        border-bottom: 1px solid lightgray;
+    }
+}
+
+@media (max-width:576px) {
+    .airport-name {
+        display: none;
+    }
+
+    .terminal-no1 {
+        display: none;
+    }
+
+    .terminal-no2 {
+        display: none;
+    }
+
+    .main-route {
+        font-size: 15px;
+    }
+
+    .duration-time {
+        display: none;
+    }
+
+    .main-time {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .port-sort {
+        display: none;
+    }
+
+    .fare-summary {
+        width: 90%;
+    }
+
+    .discount-section {
+        width: 90%;
+    }
+
+    .cancelation-reshedule-box {
+        width: 100%;
+    }
+
+    .discount-cupon input {
+        width: 86%;
+    }
+
+    .right-sections {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .cancel-route {
+        width: 100%;
+    }
+
+    .cancel-route p {
+        font-size: 12.5px;
+        font-weight: 500;
+    }
+
+    .charity {
+        padding: 10px;
+    }
+
+    .cancel-main-lower-box {
+        padding: 10px 5px;
+    }
+
+    .cancel-main-box {
+        width: 96%;
+    }
+}
+
+@media (max-width:480px) {
+    .fare-summary {
+        width: 95%;
+    }
+
+    .grand-total-title {
+        width: 50%;
+    }
+
+    .discount-section {
+        width: 95%;
+    }
+
+    .discount-cupon input {
+        width: 80%;
+    }
+
+    .view-coupons {
+        text-align: center;
+    }
+
+    .cancel-main-upper-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .cancel-main-box {
+        width: 100%;
+    }
+
+    .cancel-route {
+        width: 100%;
+    }
+
+    .cancel-route p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

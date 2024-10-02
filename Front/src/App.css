@@ -1,0 +1,2809 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Jost", sans-serif;
+}
+
+.swiper-scrollbar {
+  background-color: #ddd !important;
+}
+
+.swiper-scrollbar-drag {
+  background: #051036 !important;
+}
+
+.js-all,
+.js-current {
+  bottom: 0;
+  color: #051036;
+  position: absolute;
+}
+
+.js-current {
+  left: 4px;
+}
+
+.js-all {
+  right: 123px;
+}
+
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+  bottom: 4% !important;
+  height: 3px !important;
+  /* height: var(--swiper-scrollbar-size, 3px) !important; */
+  left: 7% !important;
+  /* left: var(--swiper-scrollbar-sides-offset, 7%) !important; */
+  width: 62% !important;
+  /* width: calc(100% - var(--swiper-scrollbar-sides-offset, 1%)* 38) !important; */
+}
+
+.testi .swiper-horizontal {
+  padding-bottom: 100px;
+}
+
+.mainbox {
+  width: 50%;
+  height: 28vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blueviolet;
+  padding: 10px;
+  margin: 20px auto;
+  position: relative;
+}
+
+/* Banner Custom Box */
+.cust-carousel-box {
+  width: 100%;
+  position: relative;
+}
+
+.border-right {
+  border-right: 2px solid rgb(224, 224, 224);
+}
+
+.padd-ri {
+  padding-right: 50px;
+}
+
+.banner-slider {
+  width: 100%;
+  position: relative;
+}
+
+.banner-slider .slick-next {
+  background-color: transparent !important;
+  cursor: pointer;
+  position: absolute !important;
+  top: 50% !important;
+  right: 75px !important;
+  transform: translateY(-50%) !important;
+  z-index: 2 !important;
+}
+
+.banner-slider .slick-next::before {
+  content: "" !important;
+  position: absolute !important;
+  height: 2px !important;
+  width: 50px !important;
+  background-color: gray !important;
+  padding: 0 0 !important;
+}
+
+.banner-slider .slick-prev {
+  background-color: transparent !important;
+  cursor: pointer;
+  position: absolute !important;
+  top: 50% !important;
+  left: 45px !important;
+  transform: translateY(-50%) !important;
+  z-index: 2 !important;
+}
+
+.banner-slider .slick-prev::before {
+  content: "" !important;
+  position: absolute !important;
+  height: 2px !important;
+  width: 50px !important;
+  background-color: gray !important;
+  padding: 0 0 !important;
+}
+
+.carousel-text {
+  font-size: 17px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.carousel-title {
+  font-size: 72px;
+  color: #fff;
+  font-weight: 750;
+  line-height: 96px;
+}
+
+.cust-carousel-btn {
+  height: 2.5px;
+  width: 60px;
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+}
+
+.cust-btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: lightgray;
+}
+
+.cust-left {
+  position: absolute;
+  top: 46%;
+  left: 40px;
+}
+
+.cust-right {
+  position: absolute;
+  top: 46%;
+  right: 40px;
+}
+
+.banner_image_box {
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  width: 100%;
+  height: 750px;
+  position: relative;
+}
+
+.banner_image_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.banner_image_box:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.473);
+  z-index: 1;
+}
+
+.cust-box1 {
+  width: 100%;
+  max-width: 80%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: transparent;
+  text-align: center;
+}
+
+.banner-cust-box2 {
+  width: 62%;
+  background-color: white;
+  color: black;
+  padding: 25px 20px;
+  position: absolute;
+  box-shadow: 0px 20px 40px 0px #05103612;
+  left: 0px;
+  top: 88.5%;
+  text-align: end;
+  display: flex;
+  align-items: center;
+  gap: 30px
+}
+
+.cruise_detail_text {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+}
+
+.banner-btn-icon {
+  padding: 25px 15px;
+}
+
+.banner-btn-icon::before {
+  content: "\f002";
+  font-family: "FontAwesome";
+}
+
+.banner-btn:hover {
+  background-color: blue;
+  color: #fff;
+  transition: all 0.6s ease-out;
+}
+
+.cust-cont-3 {
+  width: 80%;
+  margin: 3rem auto;
+  display: none;
+}
+
+.btn-box {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-box button {
+  padding: 15px 20px;
+}
+
+.cust-box-4 {
+  position: absolute;
+  top: 87%;
+  right: 1.5%;
+  width: 13%;
+  z-index: 3;
+}
+
+.cust-box4-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.scroll-texts {
+  color: #fff;
+  text-align: right;
+  line-height: 25px;
+}
+
+.scroll-box {
+  width: 32px;
+  height: 55px;
+  border-radius: 46px;
+  position: relative;
+  text-align: center;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.scroll-box:hover div.scroll {
+  transition: 0.6s ease-out;
+  transform: translateY(100%);
+}
+
+.scroll {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  top: 10px;
+  left: 32%;
+  padding: 4px;
+}
+
+/* Customer review */
+.customer-review-section {
+  width: 100%;
+  background-image: url("./Images/backgrounds/11.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cust-slider-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.cust-slider-img-box {
+  width: 10%;
+}
+
+.cust-slider-img-box img {
+  width: 100%;
+}
+
+.cust-slider-body {
+  width: 75%;
+  text-align: center;
+  font-size: 27px;
+  padding-top: 2rem;
+  line-height: 4rem;
+  color: #fff;
+}
+
+.cust-slider-name {
+  padding-top: 2.5rem;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.cust-slider-desc {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  font-weight: 700;
+  font-size: 19px;
+  color: #fff;
+}
+
+/* slick-slider */
+.slick-next {
+  background-color: transparent !important;
+  cursor: pointer !important;
+}
+
+.slick-next::before {
+  content: "\f061" !important;
+  font-family: "FontAwesome" !important;
+  font-size: 25px !important;
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.slick-next:hover {
+  transition: all 0.5s ease-in-out !important;
+}
+
+.slick-prev {
+  background-color: transparent !important;
+  cursor: pointer !important;
+}
+
+.slick-prev:hover {
+  transition: all 0.5s ease-in-out !important;
+}
+
+.slick-prev::before {
+  content: "\f060" !important;
+  font-family: "FontAwesome" !important;
+  font-size: 25px !important;
+  color: white !important;
+  opacity: 1 !important;
+}
+
+.carousel-control-prev-icon::before {
+  display: none !important;
+}
+
+/* inspire section  */
+.inspire_section {
+  background-color: whitesmoke;
+  padding: 60px 0;
+}
+
+.ins-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+
+.ins-text {
+  font-size: 19px;
+  font-weight: 350;
+  color: black;
+}
+
+.cust-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cust-card-main {
+  width: 24%;
+  margin: auto;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.cust-img-cont {
+  width: 100%;
+  overflow: hidden;
+}
+
+.cust-card-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cust-card-main:hover img.cust-card-img {
+  transform: scale(1.05);
+  transition: 0.5s ease-out;
+}
+
+.cust-card-body {
+  width: 100%;
+  text-align: start;
+  background-color: white;
+  padding: 20px 15px;
+  border-radius: 5px;
+}
+
+.cust-card-title {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+  color: black;
+}
+
+.cust-card-text {
+  width: 100%;
+  font-size: 15px;
+  color: grey;
+  /* font-weight: 500; */
+  padding-bottom: 1rem;
+}
+
+/* CruiseList Box */
+.cruise_list1-europe-cruise {
+  padding: 8px;
+}
+
+.europe-heading-box {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+}
+
+.list1-heading {
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+}
+
+.list1-second-cont {
+  position: static;
+  padding: 8px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.list1-second-cont .banner-cust-box2-conts {
+  width: 30%;
+  text-align: start;
+  padding-left: 30px;
+}
+
+.list1-first {
+  width: 45%;
+}
+
+.ques {
+  color: black;
+}
+
+.border-ri {
+  border-right: 1px solid gray;
+}
+
+.list-btn-box {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 15px;
+}
+
+.list-btn {
+  background-color: blue;
+  color: #fff;
+  padding-left: 20px;
+  border: none;
+}
+
+.list-btn:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.europe-main-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+/* europe-filter-box */
+input,
+li {
+  padding: 0;
+}
+
+.europe-filter-box {
+  width: 30%;
+}
+
+.europe-filter-conts {
+  width: 100%;
+  text-align: start;
+  padding: 3px 8px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.filter-title {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.filter-check-lists {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="checkbox"] {
+  width: 18% !important;
+}
+
+.filter-check-inner {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filter-texts {
+  width: 100%;
+}
+
+.europe-catagory-box {
+  width: 68%;
+}
+
+.border-b {
+  border-bottom: 0;
+}
+
+.catagory-Lower-box {
+  width: 100%;
+}
+
+/* Cruise_cards */
+
+.cruise-card-image-box {
+  position: relative;
+  width: 35%;
+  height: 100%;
+}
+
+.cru-image {
+  width: 100%;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.cruise-card-detail-box {
+  width: 63%;
+}
+
+.cruisecard-detail {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+
+.cruise-journey-details {
+  width: 55%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cruise-journey {
+  width: 100%;
+  color: black;
+  font-size: 17px;
+  font-weight: 450;
+}
+
+.cruise_button_link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.journey-more-detail {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 1rem;
+  gap: 13px;
+}
+
+.journy-details {
+  font-size: 12px;
+  color: black;
+}
+
+.dept-date {
+  font-size: 12px;
+}
+
+.dd-conts {
+  text-align: center;
+}
+
+.place {
+  text-align: start;
+}
+
+.rating-review-box::before {
+  content: "\f005";
+  font-family: "FontAwesome";
+  color: rgba(235, 235, 51, 0.651);
+}
+
+.cruise-price-review-detail {
+  width: 100%;
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.cruise-rating {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0 8px;
+  color: black;
+}
+
+.cruise-public-review {
+  font-size: 13px;
+}
+
+.jour-price-box {
+  padding-top: 2rem;
+}
+
+.journey-price {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.review-price-btn-box {
+  padding-top: 2.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.review-price-btn {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.catagory-pagination-box {
+  width: 100%;
+}
+
+.card-pagination-main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-list-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.pagination-arrow {
+  height: 40px;
+  width: 40px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.pagination-arrow:hover {
+  background-color: blue;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.active {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* europe-catagory-box */
+.catagory-upper-box {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+}
+
+.sort-box {
+  width: 93px;
+  padding: 3px 5px;
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.cruise-card-main-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 100%;
+}
+
+.upper_filter_sort_boxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sort-box:hover {
+  background-color: blue;
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+.sort-box i {
+  color: blue;
+  font-size: 12px;
+}
+
+.sort-box:hover p.sort-text {
+  color: #fff;
+  font-weight: 500;
+  transition: 0.5s ease-out;
+}
+
+.sort-box:hover i.fa-arrow-down-up-across-line {
+  color: #fff;
+  transition: 0.5s ease-out;
+}
+
+.sort-text {
+  display: inline;
+  padding-left: 8px;
+  color: blue;
+}
+
+.filter-box {
+  display: none;
+}
+
+.input_values {
+  padding: 0.4rem 0 1rem 0;
+}
+
+.range_field {
+  width: 90%;
+}
+
+/* Cruise Booking */
+.cruise_booking_section {
+  width: 100%;
+}
+
+.booking_main_box {
+  width: 100%;
+}
+
+.booking_step_box {
+  width: 100%;
+}
+
+/* Booking Steps*/
+.cruise_step_box {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.step-boxes {
+  width: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.separate-line {
+  width: 250px;
+  height: 1px;
+  background-color: lightgray;
+}
+
+.steps {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.step-number {
+  height: 45px;
+  width: 45px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: blue;
+}
+
+.cheacked {
+  background-color: blue;
+  color: #fff;
+  font-size: 18px;
+}
+
+.booking_information_section {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.booking-person-information {
+  width: 60%;
+}
+
+.booking-details {
+  width: 35%;
+}
+
+.personinfo_main_box {
+  width: 100%;
+}
+
+.invite_box {
+  width: 100%;
+  padding: 15px 10px;
+  background-color: whitesmoke;
+}
+
+.booking_register_text {
+  width: 100%;
+  color: black;
+}
+
+.register_link {
+  color: blue;
+  font-weight: 600;
+}
+
+.person_info_form {
+  width: 100%;
+  padding-top: 3rem;
+  text-align: start;
+}
+
+.form_text {
+  font-size: 20px;
+  font-weight: 550;
+  color: black;
+}
+
+.booking_form {
+  width: 100%;
+}
+
+.info_form {
+  width: 100%;
+}
+
+.input-box {
+  width: 100%;
+  margin: 15px 0;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 20px 8px;
+}
+
+.mail-phone {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.w-47 {
+  width: 47%;
+}
+
+.check_text {
+  font-size: 14px;
+}
+
+.form_submit_btn {
+  width: 100%;
+  text-align: start;
+  padding-top: 15px;
+}
+
+.form_submit_btn .btn-link {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 8px;
+}
+
+.booking_demand_supply_box {
+  padding-top: 15px;
+  width: 100%;
+}
+
+.demand_supply_main {
+  width: 100%;
+}
+
+.booking-demand,
+.booking-supply {
+  width: 100%;
+}
+
+.booking-demand {
+  background-color: rgb(219, 243, 219);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 15px;
+}
+
+.booking-supply {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 15px;
+  margin-top: 1rem;
+}
+
+.logo-box {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.logo-box i {
+  color: #f8d448;
+  font-size: 25px;
+}
+
+.demand_text {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.num_booking {
+  font-size: 13px;
+}
+
+/* Review section */
+.review_section {
+  width: 100%;
+  background-color: #051036;
+  padding: 15px 0;
+}
+
+.customer_review_title {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 650;
+}
+
+.review_title_box {
+  width: 40%;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.customer_card {
+  border: 1px solid white;
+  width: 95%;
+}
+
+.review_img_box {
+  width: 30%;
+}
+
+.review_img_box img {
+  width: 100%;
+}
+
+.review_title {
+  width: 90%;
+  font-size: 27px;
+}
+
+.review_main {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.review_box {
+  width: 100%;
+}
+
+.review_card_main {
+  width: 90%;
+  background-color: #3b3a3a;
+  border-radius: 10px;
+}
+
+.card_upper_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+hr {
+  color: #fff;
+}
+
+.star_box {
+  color: #ed9e02;
+}
+
+.card_profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pro_pic-box {
+  width: 40%;
+}
+
+.pro_pic-box img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card-name_box {
+  width: 60%;
+}
+
+.card_profile_name {
+  color: #ed9e02;
+  font-weight: 550;
+  font-size: 15px;
+}
+
+.card_logo {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #ed9e02;
+}
+
+.customer_logo_text {
+  font-weight: 650;
+  color: #3b3a3a;
+}
+
+.card_lower-box {
+  padding: 20px 10px;
+}
+
+.card_desc {
+  color: #fff;
+}
+
+.client_section_main {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.client_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+
+.client-text_box {
+  width: 20%;
+  display: flex;
+  gap: 5px;
+}
+
+.bar {
+  width: 8px;
+  height: 80px;
+  background-color: #ed9e02;
+}
+
+.client_logo_box {
+  width: 77%;
+}
+
+.client_slogan {
+  font-size: 22px;
+  color: black;
+  font-weight: 550;
+}
+
+.client_logo_main {
+  width: 100%;
+}
+
+.logo_box {
+  width: 25%;
+}
+
+.logo_box img {
+  width: 70%;
+}
+
+.review_section_main {
+  padding: 25px 0;
+}
+
+.customer_review_main {
+  padding-left: 20px;
+}
+
+.customer_review_box {
+  width: 100%;
+  padding: 55px 0;
+}
+
+.customer_card {
+  width: 90%;
+  background-color: white;
+  padding: 15px 25px;
+  border: 0.5px solid lightgray;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+
+.customercardbox {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.destination_review {
+  color: blue;
+  padding-bottom: 10px;
+}
+
+.review_description {
+  font-size: 17px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.card_upper {
+  width: 100%;
+  border-bottom: 1px solid darkgray;
+}
+
+/* Slider */
+.slick-next {
+  right: 27px !important;
+  z-index: 5;
+}
+
+.slick-prev {
+  left: -30px !important;
+  z-index: 5;
+}
+
+.slick-next:before {
+  content: "\f054" !important;
+  font-family: "FontAwesome" !important;
+  font-size: 24px !important;
+  background-color: #d3d3d3a8 !important;
+  padding: 8px 14px;
+  border-radius: 50%;
+}
+
+.slick-prev:before {
+  content: "\f053" !important;
+  font-family: "FontAwesome" !important;
+  font-size: 24px !important;
+  background-color: #d3d3d3a8 !important;
+  padding: 8px 14px;
+  border-radius: 50%;
+}
+
+.client_logo_main .slick-slider .slick-arrow {
+  display: none !important;
+}
+
+.card_lower {
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.customer_name {
+  font-size: 17px;
+  color: black;
+}
+
+.designation {
+  font-size: 15px;
+}
+
+/* booking Payment */
+.booking_payment_box {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.booking_button_boxes {
+  padding-top: 20px;
+}
+
+.payment_form {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.payment_form_field {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.payment_form_field input {
+  width: 100%;
+  padding: 13px;
+}
+
+.card_holder_section {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.card_holder_info {
+  width: 47%;
+}
+
+.card_holder_img {
+  width: 47%;
+}
+
+.card_holder_img img {
+  width: 100%;
+}
+
+.card_holder_info .payment_form_field {
+  margin-bottom: 1rem;
+}
+
+.cvc-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cvc-section .payment_form_field {
+  width: 47%;
+}
+
+/* Post payment section */
+.post_payment_main {
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.post_payment_info {
+  width: 100%;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.post_payment_info input {
+  padding: 17px;
+}
+
+.post_payment_text_list {
+  padding-left: 12px;
+  margin-top: 1rem;
+  text-align: start;
+}
+
+.post_payment_text_list li {
+  width: 100%;
+  list-style: disc;
+}
+
+.post_payment_text {
+  width: 100%;
+}
+
+.book_now_main {
+  padding-top: 35px;
+}
+
+/* input[type="checkbox"] {
+  width: 5% !important;
+} */
+.cruise_booking_detail_main {
+  width: 100%;
+}
+
+.booking_hotel_detail {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 1rem;
+  border: 1px solid lightgray;
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.booking_detail_text {
+  font-size: 21px;
+  font-weight: 500;
+  color: black;
+  padding-left: 10px;
+}
+
+.hotel-detail-main {
+  padding: 25px 10px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.hotel_img_box {
+  width: 47%;
+}
+
+.hotel_img_box img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.hotel_detail_category {
+  width: 47%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.hotel_star_box i {
+  font-size: 13px;
+  color: #f8d448;
+}
+
+.hotel_title {
+  color: black;
+  font-weight: 550;
+}
+
+.hotel_rating {
+  width: 30px;
+  padding: 8px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.hotel-review {
+  font-size: 13px;
+  color: black;
+}
+
+.booking-checking-main {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightgray;
+}
+
+.checkin_main {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 3px;
+  flex-direction: column;
+}
+
+.check-date {
+  font-size: 17px;
+  font-weight: 550;
+  color: black;
+}
+
+.stay-length-main {
+  width: 100%;
+}
+
+.stay-duration {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightgray;
+}
+
+.stay-length {
+  font-weight: 550;
+  color: black;
+}
+
+.stay-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.stay_room_date_info {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* Booking Price Summary */
+.booking_price_summary {
+  width: 100%;
+  padding-top: 20px;
+  border: 1px solid lightgray;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+
+.booking_price_summary_main {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.booking_price_details {
+  padding: 0 10px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.booking_price_list {
+  width: 46%;
+}
+
+.price_lists {
+  text-align: right;
+}
+
+.booking-price-element {
+  padding: 4px 0;
+}
+
+.price_total_box {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #e5f0fd;
+}
+
+.booking_main-price {
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+}
+
+.advance_payment_main {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.promo_code_main {
+  width: 100%;
+  padding: 1rem;
+}
+
+.promo_input {
+  width: 100%;
+  border: 1px solid lightgray;
+  margin-bottom: 1rem;
+}
+
+.promo_input input {
+  padding: 15px;
+}
+
+/* Why choose us */
+.why_choose_us_section {
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.why-us-title {
+  width: 100%;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+}
+
+.why-us-text {
+  text-align: center;
+  width: 100%;
+}
+
+.why_choose_us_main {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.our_content_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.our_contents {
+  text-align: center;
+  padding: 1rem 0.5rem;
+  width: 32%;
+}
+
+.content_img_box {
+  margin: auto;
+  width: 25%;
+}
+
+.content_img_box img {
+  width: 100%;
+}
+
+.content_title {
+  padding: 1rem 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: black;
+}
+
+.journey_start_section {
+  width: 100%;
+  background-color: #0d2857;
+  padding: 3rem;
+  color: #fff;
+}
+
+.journey_start {
+  width: 100%;
+}
+
+.journey_start_main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.journey_start_left {
+  width: 45%;
+  display: flex;
+  align-items: center;
+}
+
+.journey_desc_box {
+  padding-left: 2rem;
+}
+
+.journey_icon_box::before {
+  content: "\f658";
+  font-family: "FontAwesome";
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.journey_desc_title {
+  font-size: 27px;
+  color: #fff;
+}
+
+.journey_desc_text {
+  color: #fff;
+}
+
+.journey_start_right {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.journey_input_box {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.journey_input {
+  padding: 12px;
+}
+
+/* Success Page */
+.success_page_section {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.success_upper_box {
+  padding-top: 20px;
+  width: 100%;
+}
+
+.success_upper_main_box {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.success_check {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #0d2857;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.success_check i {
+  color: white;
+  font-size: 2rem;
+}
+
+.success_upper_title {
+  font-size: 30px;
+  padding-top: 20px;
+  color: black;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.success_upper_text {
+  width: 100%;
+  font-size: 18px;
+  padding-top: 0.4rem;
+  text-align: center;
+}
+
+.success_order-details {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.order_details_main {
+  width: 100%;
+  padding: 40px;
+  border: 2px dotted blue;
+  border-radius: 10px;
+}
+
+.order-detailing_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.detailing {
+  width: 25%;
+  text-align: start;
+}
+
+.order_num_text {
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+}
+
+.order_num {
+  font-weight: 450;
+  color: blue;
+}
+
+.personal_information_section {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 3rem;
+}
+
+.personal_info-main {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.person_information {
+  width: 100%;
+  padding: 1rem 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+
+.person-qus {
+  font-size: 17px;
+  color: black;
+}
+
+.person-ans {
+  font-size: 17px;
+  color: blue;
+}
+
+.cust_header {
+  width: 100%;
+}
+
+.cust_header_nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Calender Start */
+.calenderDiv {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 10;
+  width: 350px;
+  padding: 25px 0px;
+}
+.calenderDiv .react-calendar {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 5px;
+}
+.hdbkpt {
+  background-color: #000;
+  width: 100%;
+}
+/* Calender End */
+
+
+
+
+/*****************/
+/****responsive***/
+
+@media (max-width: 1400px) {
+  .banner_image_box {
+    height: 600px;
+  }
+}
+
+
+
+@media (max-width: 1199px) {
+
+  /* banner section */
+  .banner-cust-box2 {
+    left: 22.5%;
+    top: 84%;
+    width: 0 20px;
+  }
+
+  .carousel-title {
+    font-size: 65px;
+  }
+
+  .cust-box-4 {
+    display: none;
+  }
+
+  .review-price-btn {
+    width: 80%;
+  }
+
+  .review-price-btn-box {
+    padding-left: 2px;
+  }
+
+  /* Bokking step */
+  .separate-line {
+    width: 150px;
+  }
+
+  .step-boxes {
+    width: 20%;
+  }
+}
+
+@media (max-width: 992px) {
+  .banner_image_box {
+    height: 474px;
+  }
+
+  /* banner section */
+  .carousel-text {
+    font-size: 20px;
+  }
+
+  .carousel-title {
+    font-size: 50px;
+  }
+
+  .banner-cust-box2 {
+    flex-direction: column;
+    display: none;
+  }
+
+  .list1-second-cont .banner-cust-box2-conts {
+    width: 100%;
+    border-right: 0 !important;
+  }
+
+  .cust-cont-3 {
+    display: block;
+    padding: 10px 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .cust-cont3-box {
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+  }
+
+  .no-bdr {
+    border-bottom: 0;
+  }
+
+  .banner-btn {
+    width: 100%;
+    padding: 10px 15px;
+  }
+
+
+  /* inspire section  */
+  .cust-card {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .cust-card-main {
+    width: 46%;
+  }
+
+  /* customer- review */
+  .cust-slider-body {
+    width: 100%;
+    font-size: 21px;
+  }
+
+  /* europe-main-box */
+
+  .europe-filter-box {
+    display: none;
+  }
+
+  .filter-box {
+    display: block;
+  }
+
+  .europe-catagory-box {
+    width: 100%;
+  }
+
+  /* cruisecard  */
+  .review-price-btn {
+    width: 75%;
+  }
+
+  .cruise-card-detail-box {
+    padding: 0 10px;
+  }
+
+  /* Bokking step */
+  .steps {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .separate-line {
+    width: 110px;
+  }
+
+  /* Cruise Booking */
+  .booking_information_section {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .booking-person-information {
+    width: 100%;
+  }
+
+  .booking-details {
+    width: 100%;
+  }
+
+  /* journey */
+  .journey_start_left {
+    align-items: start;
+  }
+
+  .journey_desc_title {
+    font-size: 17px;
+    padding-top: 0.6rem;
+  }
+
+  .journey_desc_text {
+    padding-top: 1rem;
+    font-size: 12px;
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) {
+  .testi .swiper-horizontal {
+    padding-bottom: 50px;
+  }
+
+  .customer_card {
+    width: 100%;
+  }
+
+  .inspire_section {
+
+    padding: 30px 0;
+  }
+
+  .ins-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    line-height: 38px;
+  }
+
+  .cust-cont-3 {
+    width: 92%;
+    margin: 1rem auto;
+
+  }
+
+  .banner_image_box {
+    height: 414px;
+  }
+
+  /* inspire section  */
+  .cust-card-main {
+    width: 48%;
+  }
+
+  /* banner  */
+  .carousel-title {
+    font-size: 43px;
+    line-height: 68px;
+  }
+
+  /* customer- review */
+  .cust-slider-body {
+    width: 100%;
+    font-size: 17px;
+  }
+
+  /* Filter box */
+  .responsive-europe-filter-box {
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding: 40px 0;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .responsive_filter_box_main {
+    width: 100%;
+  }
+
+  .responsive-europe-main-box {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 20px 10px;
+    background-color: #fff;
+    color: black;
+  }
+
+  .responsive-europe-filter-box .europe-filter-conts {
+    width: 48%;
+  }
+
+  .responsive-europe-filter-box .europe-filter-conts i {
+    padding-bottom: 2rem;
+    font-size: 30px;
+  }
+
+  .closeButton {
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+
+  .closeButton i {
+    font-size: 25px;
+  }
+
+  /* cruisecard  */
+  .cruise-card-main-cont {
+    flex-direction: column;
+  }
+
+  .cruise-card-image-box {
+    width: 100%;
+  }
+
+  .review-price-btn {
+    width: 100%;
+  }
+
+  .cruise-card-detail-box {
+    width: 100%;
+  }
+
+  .cruisecard-detail {
+    width: 100%;
+    padding-top: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .cruise-journey-details {
+    width: 100%;
+  }
+
+  .cruise-price-review-detail {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .journy-details {
+    font-size: 18px;
+  }
+
+  .cruise-journey {
+    font-size: 20px;
+  }
+
+  .dept-date {
+    font-size: 14px;
+  }
+
+  .jour-price-box {
+    padding-top: 1rem;
+  }
+
+  .review-price-btn-box {
+    padding-top: 1.5rem;
+  }
+
+  .review-price-btn {
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  .jour-price-box {
+    text-align: start;
+  }
+
+  .customer_review_main {
+    padding-left: 0;
+  }
+
+  .customer_card {
+    padding: 5px 10px;
+  }
+
+  .destination_review {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 450;
+  }
+
+  .review_description {
+    font-size: 13px;
+  }
+
+  .customer_name {
+    font-size: 10px;
+    font-weight: 650;
+  }
+
+  .designation {
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .slick-prev {
+    left: -24px !important;
+  }
+
+  /* pagination-box */
+  .catagory-pagination-box {
+    width: 100%;
+  }
+
+  .card-pagination-main {
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .page-list-box {
+    gap: 14px;
+  }
+
+  .card-page:nth-child(2n) {
+    display: none;
+  }
+
+  .pagination-divisor {
+    display: none;
+  }
+
+  /* Bokking step */
+  .cruise_step_box {
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .step-boxes {
+    width: 70%;
+    justify-content: center;
+    gap: 7px;
+  }
+
+  .steps {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .separate-line {
+    width: 1px;
+    height: 40px;
+  }
+
+  /* Cruise Booking */
+  .mail-phone {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+
+  .form_submit_btn .btn-link {
+    width: 40%;
+  }
+
+  .card_holder_section {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .card_holder_info {
+    width: 100%;
+  }
+
+  .payment_form_field input {
+    width: 100%;
+  }
+
+  .cvc-section {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .cvc-section .payment_form_field {
+    width: 100%;
+  }
+
+  .card_holder_img {
+    width: 100%;
+  }
+
+  /* Why us */
+  .our_contents {
+    width: 50%;
+  }
+
+  /* Journey start */
+  .journey_start_main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .journey_start_left {
+    width: 100%;
+  }
+
+  .journey_desc_title {
+    font-size: 27px;
+  }
+
+  .journey_desc_text {
+    font-size: 16px;
+  }
+
+  .journey_start_right {
+    width: 100%;
+  }
+
+  /* success */
+  .order-detailing_box {
+    gap: 2rem;
+  }
+
+  .detailing {
+    width: 46%;
+  }
+
+  .order_num_text {
+    font-size: 22px;
+  }
+
+  .order_num {
+    font-size: 18px;
+  }
+
+  .success_upper_title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .success_upper_text {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 586px) {
+  .cust-box1 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* inspire section  */
+  .cust-card-main {
+    width: 100%;
+  }
+
+  /* banner  */
+  .carousel-text {
+    font-size: 16px;
+  }
+
+  /* why us */
+  .our_contents {
+    width: 100%;
+  }
+
+  .content_title {
+    font-size: 30px;
+  }
+
+  .content_text {
+    font-size: 18px;
+  }
+
+  /* journey Start */
+  .journey_desc_title {
+    font-size: 20px;
+  }
+
+  .journey_desc_text {
+    font-size: 12px;
+  }
+
+  /* responsive filter section */
+  .responsive-europe-main-box .europe-filter-conts {
+    width: 100%;
+  }
+
+  /* Success */
+  .success_upper_title {
+    text-align: center;
+  }
+
+  .order-detailing_box {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .detailing {
+    width: 100%;
+    text-align: center;
+  }
+
+  .customer_review_box {
+    padding: 30px 15px;
+  }
+
+  .designation {
+    font-size: 11px;
+  }
+
+  .carousel-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-text {
+    font-size: 12px;
+  }
+
+  .banner_image_box {
+    height: 300px;
+  }
+
+  /* cruise-card */
+  .journy-details {
+    font-size: 14px;
+  }
+
+  .dept-date {
+    font-size: 11px;
+  }
+
+  .cruise-journey {
+    font-size: 16px;
+  }
+
+  .btn-link {
+    width: 100%;
+    gap: 2rem;
+  }
+
+  /* review slider */
+  .customer_name {
+    font-size: 20px;
+  }
+
+  .designation {
+    font-size: 15px;
+  }
+
+  .slick-next {
+    right: 0 !important;
+  }
+
+  /* booking button boxes */
+  .booking_button_boxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form_submit_btn {
+    padding-top: 1.5rem;
+  }
+
+  .form_submit_btn .btn-link {
+    width: 100%;
+  }
+
+  /* why us */
+  .content_title {
+    font-size: 25px;
+  }
+
+  .content_text {
+    font-size: 16px;
+  }
+
+  /* journey Start */
+  .journey_desc_title {
+    font-size: 15px;
+  }
+
+  .js-all {
+    right: 0;
+  }
+
+  .swiper-horizontal>.swiper-scrollbar,
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    left: var(--swiper-scrollbar-sides-offset, 19%) !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .hotel-detail-main {
+    flex-direction: column;
+  }
+
+  .hotel_img_box {
+    width: 100%;
+  }
+
+  .hotel_detail_category {
+    padding-top: 1rem;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hotel_title {
+    font-size: 15px;
+  }
+
+  .form_submit_btn .btn-link {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .card_lower {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .slick-next {
+    right: 22px !important;
+  }
+
+  .review_img_box {
+    width: 40%;
+  }
+}
+
+
+
+
+
+
+/*****whenCharterHelicopter_sec***/
+
+.whenCharterHelicopter_sec {
+  width: 100%;
+  height: auto;
+  padding: 60px 0;
+}
+
+.whenCharterHelicopter_sec .heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: left;
+  line-height: normal;
+  color: #051036;
+  padding: 0;
+  margin-bottom: 20px;
+  font-family: "Jost", sans-serif;
+  text-transform: capitalize;
+}
+
+.whenCharterHelicopter_sec .desc {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 26px;
+  color: #051036;
+  padding: 0;
+  margin-bottom: 15px;
+  font-family: "Jost", sans-serif;
+  opacity: 0.8;
+}
+
+.whenCharterHelicopter_sec .image_wrap {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+
+.whenCharterHelicopter_sec .image_wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.CharterService_icon {
+  width: 70px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.CharterService_icon img {
+  width: 100%;
+  height: 100%;
+}
+
+/**HelicopterCharterEnquiry_sec***/
+.HelicopterCharterEnquiry_sec {
+  width: 100%;
+  height: auto;
+  padding: 60px 0;
+}
+
+.HelicopterCharterEnquiry_sec .heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  line-height: normal;
+  color: #051036;
+  padding: 0;
+  margin-bottom: 20px;
+  font-family: "Jost", sans-serif;
+  text-transform: capitalize;
+}
+
+.HelicopterCharterEnquiry_sec .desc {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 26px;
+  color: #051036;
+  padding: 0;
+  margin-bottom: 15px;
+  font-family: "Jost", sans-serif;
+  opacity: 0.8;
+}
+
+.HelicopterCharterEnquiry_sec form {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: 30px auto 0;
+}
+
+.HelicopterCharterEnquiry_sec .form-group {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.HelicopterCharterEnquiry_sec label {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 500;
+  line-height: normal;
+  color: #051036;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.HelicopterCharterEnquiry_sec label span {
+  color: rgb(197, 3, 3);
+}
+
+.HelicopterCharterEnquiry_sec .form-control {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1px solid #acabab;
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.HelicopterCharterEnquiry_sec .form-control:focus {
+  border: 1px solid #035cf7;
+}
+
+.HelicopterCharterEnquiry_sec .form-control::placeholder {
+  font-size: 14px;
+  color: #a8a7a7;
+}
+
+.HelicopterCharterEnquiry_sec input {
+  width: 100%;
+  height: 45px;
+}
+
+.Submit_btn {
+  border: 0;
+  background: #53b4e6;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  height: 48px;
+  letter-spacing: 0.53px;
+  line-height: 48px;
+  margin: 10px auto;
+  outline: none;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 200px;
+  height: 45px;
+  transition: 0.6s;
+}
+
+.Submit_btn:hover {
+  background: #065177;
+}
+
+
+
+/**responsive**/
+@media (max-width: 991px) {
+  .whenCharterHelicopter_sec {
+    padding: 40px 0;
+  }
+
+  .HelicopterCharterEnquiry_sec {
+    padding: 40px 0;
+  }
+
+  .whenCharterHelicopter_sec .desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .whenCharterHelicopter_sec .heading {
+    font-size: 22px;
+  }
+
+  .HelicopterCharterEnquiry_sec .heading {
+    font-size: 22px;
+  }
+
+  .HelicopterCharterEnquiry_sec .desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .whenCharterHelicopter_sec {
+    padding: 30px 0;
+  }
+
+  .HelicopterCharterEnquiry_sec {
+    padding: 30px 0;
+  }
+
+  .whenCharterHelicopter_sec .desc {
+    text-align: justify;
+  }
+
+  .whenCharterHelicopter_sec .heading {
+    text-align: center;
+  }
+
+  .HelicopterCharterEnquiry_sec .heading {
+    text-align: center;
+  }
+
+  .HelicopterCharterEnquiry_sec .desc {
+    text-align: justify;
+  }
+
+  .whenCharterHelicopter_sec .image_wrap {
+    width: 100%;
+    height: auto;
+  }
+}
