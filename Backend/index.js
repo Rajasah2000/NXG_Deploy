@@ -3,7 +3,7 @@ const connectDb = require("./config/db");
 const authRoutes = require("./config/routes/authRoutes");
 const cors = require("cors");
 const app = express();
-const port = 5000;
+const port = 8025;
 
 // Enable CORS for all routes
 app.use(cors());
