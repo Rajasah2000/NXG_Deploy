@@ -153,7 +153,22 @@ const Routing = () => {
 
   return (
     <>
-      <Router>
+
+      <BrowserRouter basename="/admin">
+        <Routes>
+          {PublicRoutes?.map((item) => (
+            <Route path={item.path} element={item.element} />
+          ))}
+          {PrivateRoutes?.map((item) => (
+            <Route
+              path={item.path}
+              element={<PrivateRoute>{item.element}</PrivateRoute>}
+            />
+          ))}
+        </Routes>
+      </BrowserRouter>
+
+      {/* <Router>
         <Routes>
           {PublicRoutes?.map((item) => {
             return (
@@ -173,7 +188,7 @@ const Routing = () => {
             );
           })}
         </Routes>
-      </Router>
+      </Router> */}
     </>
   );
 };
