@@ -6,6 +6,8 @@ import {
   Routes,
 } from "react-router-dom";
 
+import { BrowserRouter } from "react-router-dom";
+
 import Dashboard from "../../page/Dashboard";
 import Login from "../../page/Login";
 import ManageCountry from "../../page/ManageCountry";
